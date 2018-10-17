@@ -23,7 +23,7 @@ Usage of ./gcp-update-firewall:
 ## Example
 
 ```
-$ ./gcp-update-firewall -j ~/account.json -p jh
+$ ./gcp-update-firewall -j ~/account.json -p test
                                                                                                                                                               
 Firewall rules will be updated with the external IP: 1.1.1.1/32                                                                                               
                                                                                                                                                               
