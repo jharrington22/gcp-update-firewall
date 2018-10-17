@@ -143,7 +143,7 @@ func main() {
 			fmt.Println("\nThere are no rules to update! Goodbye!")
 			os.Exit(0)
 		}
-		fmt.Println("\nGoing to update the following rules:\n")
+		fmt.Printf("\nGoing to update the following rules:\n\n")
 		for _, updatedRule := range firewallRulesToUpdate {
 			fmt.Printf("%v\n", updatedRule.firewall.Name)
 		}

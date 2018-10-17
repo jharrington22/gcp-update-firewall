@@ -1,6 +1,8 @@
 # gcp-update-firewall
 Go tool to update GCP firewall rules which are open to the world (0.0.0.0/0) to your external public IP.
 
+[![Build Status](https://travis-ci.org/jharrington22/gcp-update-firewall.svg?branch=master)](https://travis-ci.org/jharrington22/gcp-update-firewall)
+
 Download built binaries for Windows, OSX and Linux on the releases page.
 
 The -p STRING flag allows you to match firewall rule name that contains the STRING anywhere within the name.
@@ -21,7 +23,7 @@ Usage of ./gcp-update-firewall:
 ## Example
 
 ```
-$ ./gcp-update-firewall -j ~/account.json -p jh                                                                           
+$ ./gcp-update-firewall -j ~/account.json -p jh
                                                                                                                                                               
 Firewall rules will be updated with the external IP: 1.1.1.1/32                                                                                               
                                                                                                                                                               
