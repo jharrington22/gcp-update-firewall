@@ -3,7 +3,7 @@ Go tool to update GCP firewall rules which are open to the world (0.0.0.0/0) to 
 
 [![Build Status](https://travis-ci.org/jharrington22/gcp-update-firewall.svg?branch=master)](https://travis-ci.org/jharrington22/gcp-update-firewall)
 
-Download built binaries for Windows, OSX and Linux on the releases page.
+Download built binaries for Windows, OSX and Linux on the [releases](https://github.com/jharrington22/gcp-update-firewall/releases/latest) page.
 
 The -p STRING flag allows you to match firewall rule name that contains the STRING anywhere within the name.
 
