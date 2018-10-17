@@ -1,6 +1,8 @@
 # gcp-update-firewall
 Go tool to update GCP firewall rules which are open to the world (0.0.0.0/0) to your external public IP.
 
+Download built binaries for Windows, OSX and Linux on the releases page.
+
 The -p STRING flag allows you to match firewall rule name that contains the STRING anywhere within the name.
 
 The tool will exit if there are no rules to update, and will always as BEFORE updating any rules.
