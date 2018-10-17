@@ -30,9 +30,9 @@ deploy:
   api_key:
     secure: ZIua+MN5fEGUKtFGetT8IMYqW5DwtEqEYrm7nIJ4r5N0nAIPb39ucD22sT8jjxH7INT6s+OcMnOCcrsODAPott1ePegmOo9muJxpgLWZ9VK/7BCh6vYdx/W5GxgUEccJFdGsDysoXO+SItCKg8MeyeRlhsDGzTkAtZ7Vu7RQUyMQNlwpg8NrIHAbnDWTbBlWSUXQrDO+2gf86N33wvyBKfYSA0lMPeAyl8BX76ihg/6CEsr6RjzS3ZQHdfKr67C5vksFFkRj5D7i7/ElQxWZbNxSv+zmCNfpDbDrLFAYGTT93+qBNxzIN4eHuBNOWrQxQIOWX6IDle2zx4bQan+j3A0INsGI22S/ngJvyQI/SdX/thSzM4jVtJNxXy1mvV+Fgt3lKBCQCd9lKiNiSUBax4FCasS8qsLc+0tHVD9mU/dEcrgZGt1OnniPgmfoMe6pFtfFNjzs8LUMFXzuinlI0/n5oPlM29f3H0+fEv3ysZHo4OpPd+tLcdfZKLTgtC/SK00uf6BJxOrEiXA/AqAlUWJb7/VIazlYJ1Azv7AJyVZCtS7TWZiink+IWTrkU1miEqNuIq+vNdTpz63Vh3XyLKJyesNfu0k8/2pGvgn3w46KLyX0RIP+WQ1zvtopGi1IWlmPVWnXLvh7s6JTG/0nY9xlbdUnOv2m0CyNrZKkqMA=
   file:
-    - beermate.linux.amd64
-    - beermate.darwin.amd64
-    - beermate.windows.amd64.exe
+    - gcp-update-firewall.linux.amd64
+    - gcp-update-firewall.darwin.amd64
+    - gcp-update-firewall.windows.amd64.exe
   on:
     repo: jharrington22/gcp-update-firewall
     tags: true
